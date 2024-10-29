@@ -5,7 +5,7 @@
 static int n_len(int n) {
     int len = 0;
 
-    if (n <= 0)  // `0` veya negatif durumda ekstra alan
+    if (n <= 0)
         len++;
 
     while (n) {
